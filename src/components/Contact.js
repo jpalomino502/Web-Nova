@@ -20,7 +20,7 @@ const Contact = () => {
             Contacto
           </button>
           <div className="mt-8 flex justify-center space-x-6">
-            <a href="https://www.instagram.com/webnova_bga?igsh=cmxwZXRsdXFhbDVy&utm_source=qr">
+            <a href="https://www.facebook.com/share/uNDaJQkfLvTYKW1a/?mibextid=LQQJ4d">
               <img src="/assets/FacebookIcon.svg" className="h-8 w-8" alt="Facebook Icon" />
               <span className="sr-only">Facebook</span>
             </a>
@@ -28,7 +28,7 @@ const Contact = () => {
               <img src="/assets/InstagramIcon.svg" className="h-8 w-8" alt="Instagram Icon" />
               <span className="sr-only">Instagram</span>
             </a>
-            <a href="https://www.linkedin.com/in/web-nova-31b039318?trk=contact-info">
+            <a href="https://www.linkedin.com/company/webnova-co/">
               <img src="/assets/LinkedInIcon.svg" className="h-8 w-8" alt="LinkedIn Icon" />
               <span className="sr-only">LinkedIn</span>
             </a>
