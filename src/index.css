@@ -3,12 +3,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body{
-  font-family: 'Quicksand', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* index.css o App.css */
+@font-face {
+  font-family: 'Geist';
+  src: url('../src/fonts/Geist-Regular.woff2') format('woff2'),
+       url('../src/fonts/Geist-Regular.woff') format('woff');
+  /* Añade más formatos de fuentes si es necesario */
+  font-weight: normal;
+  font-style: normal;
 }
 
+body {
+  font-family: 'Geist', sans-serif;
+  /* Aplica la fuente Geist como la fuente predeterminada para todo el cuerpo del documento */
+}
+
+
+/* Home */
 #menu {
   display: none;
 }
@@ -66,3 +83,4 @@ body{
 .service-card .description {
   color: white;
 }
+/*Sirius*/
